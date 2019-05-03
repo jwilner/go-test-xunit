@@ -14,5 +14,6 @@ deploy:
   api_key:
     secure: XyRsYcq/UZ55uDjxAtGA/orZ+bNwCUP5rwVaGgzHSaWILwk0m5c29NbnaA9dvefWEkTqNyDAaYNBMFb2nsHZz6xFlwXjc5IKfywza8hlnLVa5lJR7j/+OT6noTiiaiRwQS+t1Ayr5ZwwHYKA+MTYm6ffJa0o4HnS8L5cgHlZMs3BKITDtIW+Ba09UqX3/l2rBZHB4EBPmmm1VbJ3Gofybj/D9SGucanxEJdwc4hJwRAUg6VIS8eh+dGHO2MbXKgoaugSvJ3IhcZ3R+Hs0SkDICSnqD303apesS8cGTwqq/LeoJ/rIY/xdatAoMgODYu/v+uZt6Si+VnPbBAalLNnl9EX42z3ISsfP5ZD9tQ8suum1xi6mgzdRG8Uid0/B2Ueo++XKo2L3U2wCdgjYnb3A9ZiX55FDZITgoXFZjVTp8nIAmJvOL+9S9ouqY1UgN2RmcNJMe6ZpiXnu/a3n9skUdSx5YcV4zT4pFNgBCpQVSrmFJoD8LalNh+EO6pf3v69/AQWwLgekxh1mcDCpHiXxn4+BtbwUwrmnoM4ejVXADX+PLLoCYqOqvP37Iyms2oAtle4BnX7J82UztjAX5x5V/oGyzRDmK7HPprFUTGRawtKyOpc/HNrDKFivhqUwpcGh+ZRmziqPSPX8OuBWCXnObkjt+JW0mc12E6XplAFusk=
   file: target/*
+  file_glob: true
   on:
     tags: true
